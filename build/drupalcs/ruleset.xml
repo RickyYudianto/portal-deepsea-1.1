@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <ruleset name="drupalcs">
+ <exclude-pattern>*/viewer/portal/sites/all/modules/custom/*</exclude-pattern>
  <description>A drupal coding standard for Codesniffer.</description>
 </ruleset>
