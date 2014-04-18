@@ -2,4 +2,11 @@
 <ruleset name="drupalcs">
  <exclude-pattern>*/viewer/portal/sites/all/modules/custom/*</exclude-pattern>
  <description>A drupal coding standard for Codesniffer.</description>
+ <rule exclude="drupalcs.WhiteSpace.LineEnding"></rule>
+ <rule exclude="drupalcs.WhiteSpace.DisallowTabIndent"></rule>
+ <rule exclude="drupalcs.WhiteSpace.ScopeIndent"></rule>
+ <rule exclude="drupalcs.PHP.UpperCaseConstant"></rule>
+ <rule exclude="drupalcs.Strings.ConcatenationSpacing"></rule>
+ <rule exclude="drupalcs.ControlStructures.ControlDeclarationSignature"></rule>
+ <rule exclude="drupalcs.ControlStructures.ElseIfDeclaration"></rule>
 </ruleset>
